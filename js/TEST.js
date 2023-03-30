@@ -1,8 +1,8 @@
 
 
 var sources = {
-    img: "/img/Dragon FULL IMAGE.ff330bd8.png",
-    depthMap: "/img/Dragon - Full Image - Depth Map.53e8f573.png",
+    img: "/legends-playground/img/DragonFULLIMAGE.ff330bd8.png",
+    depthMap: "/legends-playground/img/DragonFullImageDepthMap.53e8f573.png",
 };
 
 let app = new PIXI.Application({
