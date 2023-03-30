@@ -25,7 +25,7 @@ $(document).ready(function() {
     var tiltx = (dy / cy);
     var tilty = -(dx / cx);
     var radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2));
-    var degree = (radius * 2);
+    var degree = (radius * 15);
     TweenLite.to("#container", 1, {
       transform: 'rotate3d(' + tiltx + ', ' + tilty + ', 0, ' + degree + 'deg)',
       ease: Power2.easeOut
