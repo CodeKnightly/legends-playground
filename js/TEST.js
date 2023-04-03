@@ -21,8 +21,8 @@ img.height = 2617;
 app.stage.addChild(img);
 
 let depthMap = PIXI.Sprite.from(sources.depthMap);
-depthMap.width =  window.innerWidth;
-depthMap.height = window.innerHeight;
+depthMap.width =  1920;
+depthMap.height = 2617;
 app.stage.addChild(depthMap);
 
 
