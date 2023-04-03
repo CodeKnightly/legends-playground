@@ -2,7 +2,7 @@
 
 var sources = {
     img: "/legends-playground/img/DragonFULLIMAGE.ff330bd8.png",
-    depthMap: "/legends-playground/img/BlurredDragonFullImageDepth Map.c516678f.png",
+    depthMap: "/legends-playground/img/INVERTEDBlurredDragonFull ImageDepthMap.e24de389.png",
 };
 
 let app = new PIXI.Application({
@@ -31,6 +31,6 @@ let displacementFilter = new PIXI.DisplacementFilter(depthMap);
 app.stage.filters = [displacementFilter];
 
 window.onmousemove = function(e) {
-displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /20;
-displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /20;
+displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) /15;
+displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) /15;
 };
