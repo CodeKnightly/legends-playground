@@ -16,13 +16,13 @@ document.body.appendChild(app.view);
 let img = PIXI.Sprite.from(sources.img);
 // img.width =  window.innerWidth;
 // img.height = window.innerHeight;
-img.width =  1920;
-img.height = 2617;
+img.width =  window.innerWidth;
+img.height = window.innerHeight * 2;
 app.stage.addChild(img);
 
 let depthMap = PIXI.Sprite.from(sources.depthMap);
-depthMap.width =  1920;
-depthMap.height = 2617;
+depthMap.width =  window.innerWidth;
+depthMap.height = window.innerHeight * 2;
 app.stage.addChild(depthMap);
 
 
