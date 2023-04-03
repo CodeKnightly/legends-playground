@@ -2,7 +2,7 @@
 
 var sources = {
     img: "/legends-playground/img/DragonFULLIMAGE.ff330bd8.png",
-    depthMap: "/legends-playground/img/DragonFullImageDepthMap.53e8f573.png",
+    depthMap: "/legends-playground/img/BlurredDragonFullImageDepth Map.c516678f.png",
 };
 
 let app = new PIXI.Application({
