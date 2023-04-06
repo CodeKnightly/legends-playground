@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as s}from"./index-b7e2a049.js";const c="/legends-playground/assets/featurevideo-20241b02.mp4",a={},n={autoplay:"",muted:"",loop:"",id:"FeatureVideo"},r=s("source",{src:c,type:"video/mp4"},null,-1),_=[r];function d(i,p){return o(),t("video",n,_)}const u=e(a,[["render",d]]);export{u as default};
