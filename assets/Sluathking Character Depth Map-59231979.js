@@ -1,0 +1,1 @@
+const a="/legends-playground/assets/Sluathking Rocks Midground-ead25add.png",e="/legends-playground/assets/Sluathking Character Foreground-2d822109.png",s="/legends-playground/assets/Sluathking Character Depth Map-ead4fe78.png";export{e as c,s as d,a as m};
